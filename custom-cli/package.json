@@ -1,0 +1,21 @@
+{
+  "name": "admin-of-laptop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "admin-of-laptop": "simple-CLI.js",
+    "pokemon": "interactive-CLI.js",
+    "optionPoki": "CLI-with-options.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "yargs": "^17.7.2"
+  }
+}

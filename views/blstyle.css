@@ -1,0 +1,113 @@
+* {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(120, 134, 145);
+
+}
+
+header nav {
+    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    color: rgb(234, 232, 232);
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.navul li {
+    display: inline-block;
+    padding-top: 0;
+}
+
+.navul li a {
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navul li a:hover {
+    color: aqua;
+}
+
+.content {
+    background-color: white;
+    height: 120vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.lcont1 {
+    margin-right: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn {
+    border: 2px solid black;
+    padding: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.rcont1 img{
+    height: 60vh;
+    width: 500px;
+    margin-right: -40px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+
+.nav2ul li{
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.nav2ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav2ul li a:hover{
+    color: rgb(0, 133, 224);
+}
+
+.nav2a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(0, 133, 224);
+    margin-right: 0px;
+    padding: 16px;
+    color: white;
+}
+.nav2a:hover {
+    background-color: rgb(27, 156, 241);;
+}
+
+.imagee img {
+    width: 21%;
+    height: 320px;
+    margin-top: 50px;
+}

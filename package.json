@@ -1,0 +1,21 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "main": "run.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "inquirer": "^8.2.5",
+    "mime": "^4.0.4",
+    "mime-types": "^2.1.35",
+    "simple-hasher": "^1.0.7"
+  }
+}

@@ -1,0 +1,2 @@
+something to be written : haha this is template literal, and the readfile is 'hello this is a sample text to retrieve!!'
+something to be written : haha this is template literal, and the readfile is 'hello this is a sample text to retrieve!!'
